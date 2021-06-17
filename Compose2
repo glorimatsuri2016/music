@@ -1,0 +1,19 @@
+#		python code
+#		script_name:
+#
+#		author:
+#		description:
+#
+
+from earsketch import *
+
+init()
+setTempo(120)
+
+fitMedia(DUBSTEP_LEAD_001,1,5,33)
+fitMedia(DUBSTEP_BASS_WOBBLE_010, 2, 3, 33)
+fitMedia(DUBSTEP_DRUMLOOP_MAIN_001, 3, 1, 33)
+fitMedia(DUBSTEP_SFX_001, 4, 7, 9)
+fitMedia(DUBSTEP_SFX_001, 5, 11, 13)
+
+finish()
